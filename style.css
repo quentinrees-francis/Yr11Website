@@ -16,12 +16,27 @@ nav a {
     padding: 15px 0px;
     background-color: #5068a4 ;
     color: #000000;
-    font-weight: bold; }
+    font-weight: bold;
+}
 
- nav a:hover {
-     background-color: #677ee2;   
-     color: #000000;  
-    }
+nav a:hover {
+    background-color: #677ee2;   
+    color: #000000;  
+}
+
+#title_image {
+    background-image: url("../title_image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 250px;
+    font-size: 60px;
+    color:#ffffff
+}
 
 body {
     background-color: #c9daf8ff ;
