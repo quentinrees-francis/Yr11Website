@@ -14,7 +14,7 @@ nav a {
     display: inline-block;
     width: 24%;
     padding: 15px 0px;
-    background-color: #5068a4 ;
+    background-color: #5068a4;
     color: #000000;
     font-weight: bold;
 }
@@ -34,10 +34,23 @@ nav a:hover {
 h1 {
     text-align: center;
     padding-top: 250px;
+    padding-bottom: 281px;
     font-size: 60px;
-    color:#ffffff
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    color:#ffffff ;
+    background-color: rgba(225, 225, 225, 0.5);
 }
 
 body {
     background-color: #c9daf8ff ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+}
+
+h2 {
+    color: #5068a4 ;
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
