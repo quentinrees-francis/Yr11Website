@@ -94,6 +94,8 @@ h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
     color:#ffffff ;
     background-color: rgba(225, 225, 225, 0.5);
+    border: #000000 1px solid;
+    
 }
 
 #history_page_image {
@@ -244,4 +246,87 @@ text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
     color:#ffffff ;
     background-color: rgba(225, 225, 225, 0.5);
+}
+
+#records_text {
+    text-align: center;
+    font-size: large;
+    margin-left: 29%;
+    margin-top: 2%;
+    border: #000000 1px solid;
+    background-color: #728fda;
+    padding: 15px;
+    width: 40%;
+}
+th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+#u_12_g_records {
+    font-size: large;
+    border-collapse: collapse;
+    margin-left: 36%;
+    background-color: #8499f3;
+    width: 30%
+}
+
+#u_12_b_records {
+    font-size: large;
+    border-collapse: collapse;
+    margin-left: 36%;
+    margin-top: 2%;
+    background-color: #8499f3;
+    width: 30%;
+}
+
+#u_14_g_records {
+    font-size: large;
+    border-collapse: collapse;
+    margin-left: 36%;
+    margin-top: 2%;
+    background-color: #8499f3;
+    width: 30%;
+}
+
+#u_14_b_records {
+    font-size: large;
+    border-collapse: collapse;
+    margin-left: 36%;
+    margin-top: 2%;
+    background-color: #8499f3;
+    width: 30%;
+}
+
+#u_16_g_records {
+    font-size: large;
+    border-collapse: collapse;
+    margin-left: 36%;
+    margin-top: 2%;
+    background-color: #8499f3;
+    width: 30%;
+}
+#u_16_b_records {
+    font-size: large;
+    border-collapse: collapse;
+    margin-left: 36%;
+    margin-top: 2%;
+    background-color: #8499f3;
+    width: 30%;
+}
+#o_16_g_records {
+    font-size: large;
+    border-collapse: collapse;
+    margin-left: 36%;
+    margin-top: 2%;
+    background-color: #8499f3;
+    width: 30%;
+}
+#o_16_b_records {
+    font-size: large;
+    border-collapse: collapse;
+    margin-left: 36%;
+    margin-top: 2%;
+    background-color: #8499f3;
+    width: 30%;
 }
