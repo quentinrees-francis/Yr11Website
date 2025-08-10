@@ -24,6 +24,9 @@ nav a:hover {
     color: #000000;  
 }
 
+.active {
+    background-color: #597fdf ;
+}
 #title_image {
     background-image: url("../title_image.jpg");
     background-size: cover;
@@ -40,6 +43,7 @@ nav a:hover {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
     color:#ffffff ;
     background-color: rgba(225, 225, 225, 0.5);
+    border: #000000 1px solid;
 }
 
 
@@ -237,6 +241,14 @@ text-align: center;
     width: 40%;
 }
 
+#records_page_image {
+    background-image: url("../records_page_image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+
 #records_page_title {
     text-align: center;
     padding-top: 250px;
@@ -246,6 +258,7 @@ text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
     color:#ffffff ;
     background-color: rgba(225, 225, 225, 0.5);
+    border: #000000 1px solid;
 }
 
 #records_text {
@@ -263,70 +276,55 @@ th,td {
     border-collapse: collapse;
     padding: 5px;
 }
-#u_12_g_records {
+
+#records {
     font-size: large;
     border-collapse: collapse;
-    margin-left: 36%;
+    margin-left: 35%;
+    margin-top: 2%;
     background-color: #8499f3;
-    width: 30%
+    width: 30%;
+}
+footer {
+    background-color: #728fda;
+    text-align: center;
+}
+#footer_info {
+    border-bottom: 1px solid #000000;
 }
 
-#u_12_b_records {
+#results_page_image {
+    background-image: url("../results_page_image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+#results_page_title {
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 281px;
+    -webkit-text-stroke: 0.5px rgb(15, 14, 14);
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    color:#ffffff ;
+    background-color: rgba(225, 225, 225, 0.5);
+    border: #000000 1px solid;
+}
+#champions {
     font-size: large;
     border-collapse: collapse;
-    margin-left: 36%;
+    margin-left: 35%;
     margin-top: 2%;
-    background-color: #8499f3;
+    background-color: #728fda;
     width: 30%;
 }
 
-#u_14_g_records {
+#event_champions {
     font-size: large;
     border-collapse: collapse;
-    margin-left: 36%;
+    margin-left: 35%;
     margin-top: 2%;
-    background-color: #8499f3;
-    width: 30%;
-}
-
-#u_14_b_records {
-    font-size: large;
-    border-collapse: collapse;
-    margin-left: 36%;
-    margin-top: 2%;
-    background-color: #8499f3;
-    width: 30%;
-}
-
-#u_16_g_records {
-    font-size: large;
-    border-collapse: collapse;
-    margin-left: 36%;
-    margin-top: 2%;
-    background-color: #8499f3;
-    width: 30%;
-}
-#u_16_b_records {
-    font-size: large;
-    border-collapse: collapse;
-    margin-left: 36%;
-    margin-top: 2%;
-    background-color: #8499f3;
-    width: 30%;
-}
-#o_16_g_records {
-    font-size: large;
-    border-collapse: collapse;
-    margin-left: 36%;
-    margin-top: 2%;
-    background-color: #8499f3;
-    width: 30%;
-}
-#o_16_b_records {
-    font-size: large;
-    border-collapse: collapse;
-    margin-left: 36%;
-    margin-top: 2%;
-    background-color: #8499f3;
+    background-color: #728fda;
     width: 30%;
 }
