@@ -4,8 +4,9 @@
 }
 
 nav {
-    background-color: #5068a4 ;
-    width: 100%
+    background-color: #657dbb ;
+    width: 100%;
+    border: 2px solid #000000;
 }
 
 nav a {
@@ -14,19 +15,22 @@ nav a {
     display: inline-block;
     width: 24%;
     padding: 15px 0px;
-    background-color: #5068a4;
+    background-color: #657dbb;
     color: #000000;
     font-weight: bold;
 }
 
 nav a:hover {
-    background-color: #677ee2;   
+    background-color: #4768fc;   
     color: #000000;  
 }
 
 .active {
     background-color: #597fdf ;
 }
+
+/* Css styling for nav bar*/
+
 #title_image {
     background-image: url("../title_image.jpg");
     background-size: cover;
@@ -46,10 +50,10 @@ nav a:hover {
     border: #000000 1px solid;
 }
 
-
+/* Css for the home page's title */
 
 body {
-    background-color: #c9daf8ff ;
+    background-color:#c9daf8ff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
 }
 
@@ -61,6 +65,21 @@ h2 {
     margin-right: 30%;
     border: #000000 2px solid;
 }
+
+footer {
+    background-color: #728fda;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 2%;
+    border: 2px solid #000000;
+}
+
+#footer_info {
+    border-bottom: 1px solid #000000;
+}
+
+/* General css for the body, h2, and footer html */
 
 #house_chant {
     width: 30%;
@@ -81,13 +100,15 @@ h2 {
     width: 40%;
 }
 
-#gallery {
+#enjoy_message {
     color: #5068a4 ;
     background-color: #a5c0f0;
     text-align: center;
     margin: 10% 30% 0 30%;
     border: #000000 2px solid;
 }
+
+/* Css for the content of the home page */
 
 #history_page_title {
     text-align: center;
@@ -108,6 +129,9 @@ h2 {
     background-position: center;
     height: 600px;
 }
+
+/* Css of the history page title and image */
+
 #history_text {
     text-align: center;
     font-size: large;
@@ -241,6 +265,8 @@ text-align: center;
     width: 40%;
 }
 
+/* Css for the information on the houses */
+
 #records_page_image {
     background-image: url("../records_page_image.jpg");
     background-size: cover;
@@ -261,6 +287,8 @@ text-align: center;
     border: #000000 1px solid;
 }
 
+/* Css for the records page title */
+
 #records_text {
     text-align: center;
     font-size: large;
@@ -277,7 +305,7 @@ th,td {
     padding: 5px;
 }
 
-#records {
+.records {
     font-size: large;
     border-collapse: collapse;
     margin-left: 35%;
@@ -285,13 +313,8 @@ th,td {
     background-color: #8499f3;
     width: 30%;
 }
-footer {
-    background-color: #728fda;
-    text-align: center;
-}
-#footer_info {
-    border-bottom: 1px solid #000000;
-}
+
+/* Css for the records tables */
 
 #results_page_image {
     background-image: url("../results_page_image.jpg");
@@ -311,20 +334,35 @@ footer {
     background-color: rgba(225, 225, 225, 0.5);
     border: #000000 1px solid;
 }
-#champions {
+
+/* Css for results page title */
+
+.champions {
     font-size: large;
     border-collapse: collapse;
     margin-left: 35%;
     margin-top: 2%;
-    background-color: #728fda;
+    background-color: #8499f3;
     width: 30%;
 }
 
-#event_champions {
+#events_title {
+    color: #5068a4 ;
+    background-color: #a5c0f0;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: #000000 2px solid;
+    margin-top: 2%;
+}
+
+.event_champions {
     font-size: large;
     border-collapse: collapse;
     margin-left: 35%;
     margin-top: 2%;
-    background-color: #728fda;
+    background-color: #edc23e;
     width: 30%;
 }
+
+/* Css for the athletics event champions and overall champions */
